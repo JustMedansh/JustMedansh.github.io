@@ -4,3 +4,55 @@
     font-weight: normal;
     font-style: normal;
 }
+
+body {
+    background-color: #ffe9de;
+}
+
+.toptext {
+    text-align:  center;
+    font-family: monospace;
+    font-size: xx-large;
+    margin-bottom: 5px;
+}
+
+.desc {
+    font-size: x-large;
+    text-align:  center;
+    font-family: monospace;
+}
+
+.nametext {
+    font-size: 100px;
+    margin-top: 5px;
+    text-align:  center;
+    font-family: 'Monocraft', monospace;
+    margin-bottom: 20px;
+}
+
+.dialogbox {
+    width: min(600px, calc(100% - 30px));
+    margin: 0 auto 30px;
+    background: #111;
+    color: white;
+    padding: 25px;
+    font-family: 'Monocraft', monospace;
+    margin-bottom: 30px;
+}
+
+dt {
+    margin-top: 15px;
+}
+
+dd {
+    margin-left: 20px;
+    color: #aaa;
+}
+
+.first {
+    margin-top: 5px;
+}
+
+.proj {
+    color: #dadada;
+}
